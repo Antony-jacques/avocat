@@ -1,5 +1,42 @@
+/* Header Section */
+#header-section{
+    background-image: url(https://www.claire-genestier-avocat-lyon.fr/wp-content/uploads/2019/06/avocat-claire-genestier-divorce-separation.jpg?id=205);
+	background-size: cover;
+	position: relative;
+}
+.parent{
+	display: flex;
+}
+
+.enfant{
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+.overlay{
+	height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+	position: absolute;
+	
+	background-color: #000000;
+    opacity: 0.6;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+
+}
 /* Header */
-#head { background:#181015 url( ../images/bg_header.jpg) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
+#head { 
+	/*background:#181015 url( ../images/bg_header.jpg) no-repeat; */
+	background-size: cover; 
+	min-height:520px; 
+	text-align: center; 
+	padding-top:150px; 
+	color:white; 
+	font-family:"Open sans", Helvetica, Arial; 
+	font-weight:300; 
+}
+
 #head.secondary { height:100px; min-height: 100px; padding-top:0px; }
 	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:6px; color:white; line-height:1.15em; } 
 	#head .tagline { color:rgba(255,255,255,0.75); margin-bottom:25px; }
